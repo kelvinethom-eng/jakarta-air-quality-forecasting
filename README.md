@@ -46,7 +46,7 @@ untuk satu rentang waktu yang sama.
 
 ### Tren PM2.5 Harian
 
-![PM2.5 time series](assets/pm25_timeseries.png)
+![PM2.5 time series](pm25_timeseries.png)
 
 PM2.5 di Jakarta secara konsisten berosilasi di sekitar/atas ambang batas
 "tidak sehat" (55 µg/m³ menurut standar AQI US EPA), dengan pola musiman yang
@@ -54,7 +54,7 @@ terlihat jelas.
 
 ### Korelasi dengan Cuaca
 
-![Correlation heatmap](assets/correlation_heatmap.png)
+![Correlation heatmap](correlation_heatmap.png)
 
 *(Update: korelasi dihitung ulang pakai data cuaca lengkap dari Open-Meteo,
 bukan cuma sensor co-located yang datanya sedikit — hasilnya lebih robust.)*
@@ -79,7 +79,7 @@ pentingnya kualitas & representativitas data, bukan cuma ukuran sampel.
 
 **Model univariat** (SARIMA, tanpa variabel luar):
 
-![Forecast comparison](assets/forecast_comparison.png)
+![Forecast comparison](forecast_comparison.png)
 
 | Model | RMSE | MAE |
 |---|---|---|
@@ -89,7 +89,7 @@ pentingnya kualitas & representativitas data, bukan cuma ukuran sampel.
 **Model dengan exogenous cuaca** (SARIMAX, dievaluasi di Des 2024 — satu-satunya
 periode dengan data cuaca lengkap yang tumpang tindih data PM2.5):
 
-![Forecast with exogenous weather](assets/forecast_exog_comparison.png)
+![Forecast with exogenous weather](forecast_exog_comparison.png)
 
 | Model | RMSE |
 |---|---|
