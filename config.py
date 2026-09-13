@@ -1,0 +1,11 @@
+JAKARTA_LAT = -6.1754
+JAKARTA_LON = 106.8272
+RADIUS_METERS = 15000
+BMKG_ADM4_CODE = "31.71.03.1001"
+OPENAQ_BASE_URL = "https://api.openaq.org/v3"
+OPENMETEO_ARCHIVE_URL = "https://archive-api.open-meteo.com/v1/archive"
+OPENMETEO_FORECAST_URL = "https://api.open-meteo.com/v1/forecast"
+BMKG_FORECAST_URL = "https://api.bmkg.go.id/publik/prakiraan-cuaca"
+START_DATE = "2024-01-01"
+END_DATE = "2024-12-31"
+DATA_DIR = "data"
